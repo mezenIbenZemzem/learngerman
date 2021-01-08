@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        android:weightSum="8"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"
+        tools:context=".ui.practice.PracticeFragment">
+
+
+                <Button
+                    android:id="@+id/learn_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/blue_200"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="@string/learn" />
+
+                <Button
+                    android:id="@+id/smart_learn_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/blue_200"
+                    android:padding="8dp"
+                    android:text="@string/smart_learn" />
+
+                <Button
+                    android:id="@+id/learn_context_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/blue_200"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="@string/learn_in_context" />
+
+                <Button
+                    android:id="@+id/learn_verbs_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/blue_200"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="@string/learn_verbs_partizip" />
+
+                <Button
+                    android:id="@+id/learn_articles_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/blue_200"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="@string/learn_articles" />
+
+                <Button
+                    android:id="@+id/learn_german_english_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/blue_200"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="@string/learn_from_german_to_english" />
+
+                <Button
+                    android:id="@+id/learn_english_german"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/blue_200"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="@string/learn_from_english_to_german" />
+
+            </LinearLayout>
+
+</layout>

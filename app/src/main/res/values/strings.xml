@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Learn German</string>
+    <string name="title_add_word">Add Word</string>
+    <string name="title_words">Words</string>
+    <string name="title_practice">Practice</string>
+    <string name="word">Word</string>
+    <string name="meaning">Meaning</string>
+    <string name="erros">Erros</string>
+    <string name="type">Type</string>
+    <string name="search">Search</string>
+
+    <string name="article">Article : </string>
+    <string name="base">Base </string>
+    <string name="plural">Plural </string>
+
+    <string name="perfect">Perfect </string>
+    <string name="praeteritum">Praeteritum </string>
+
+    <string name="comparative">Comparative </string>
+    <string name="superlative">Superlative </string>
+
+    <string name="meanings_accepted">Meanings Accepted</string>
+    <string name="meaning_learned">Meaning learned</string>
+    <string name="exemple">Exemple </string>
+
+    <string name="create"> Create  </string>
+    <string name="choose_type"> CHOOSE YOUR WORD TYPE</string>
+
+    <string name="learn_in_context"> Learn in Context </string>
+    <string name="learn"> Learn  </string>
+    <string name="learn_verbs_partizip"> Learn verbs partizip </string>
+    <string name="smart_learn"> Smart Learn </string>
+    <string name="learn_articles"> Learn articles </string>
+    <string name="learn_from_german_to_english"> Learn from german to english </string>
+    <string name="learn_from_english_to_german"> Learn from english to german </string>
+
+    <string name="choose_learn_style"> Choose your favorite learn style </string>
+
+    <string name="word_">Word : </string>
+    <string name="meaning_">Meaning : </string>
+
+    <string name="verify"> Verify  </string>
+    <string name="verb"> Verb </string>
+    <string name="sentence"> Sentence :  </string>
+    <string name="keyword"> Keyword : </string>
+    <string name="noun"> Noun </string>
+    <string name="edit"> Edit </string>
+    <string name="update_word"> Update word </string>
+    <string name="delete"> Delete </string>
+
+    <string name="der"> Der </string>
+    <string name="die"> Die </string>
+    <string name="das"> Das </string>
+
+
+    <string-array name="word_types">
+        <item>Noun</item>
+        <item>Verb</item>
+        <item>Adjective</item>
+<!--        <item>Other Word</item>-->
+    </string-array>
+
+    <string-array name="articles">
+        <item>der</item>
+        <item>die</item>
+        <item>das</item>
+<!--        <item>none</item>-->
+    </string-array>
+    <string name="title_activity_word_detail">WordDetailActivity</string>
+    <string name="title_activity_learn">LearnActivity</string>
+
+    <string name="add_example_for">Add Example for</string>
+    <string name="required_fields">Please complete all required fields</string>
+    <string name="something_went_wrong">something went wrong</string>
+    <string name="was_successfully_added"> was successfully added</string>
+    <string name="was_successfully_updated"> was successfully updated</string>
+    <string name="was_successfully_deleted"> was successfully deleted</string>
+    <string name="wrong_answer">Opps! Wrong answer</string>
+    <string name="splash_activity">SplashActivity</string>
+    was successfully added
+</resources>

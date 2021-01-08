@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="@color/blue_700"
+            android:padding="4dp"
+            android:text="@string/add_example_for" />
+
+        <TextView
+            android:id="@+id/word_for_example_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:textSize="23sp"
+            android:textColor="@color/blue_700"
+            android:text="" />
+
+    </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/sentence_textInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/sentence"
+            android:padding="4dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/sentence_Ed"
+            android:layout_width="match_parent"
+            android:text=""
+            android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/base_noun_textInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/keyword"
+            android:padding="4dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/keyword_Ed"
+            android:layout_width="match_parent"
+            android:text=""
+            android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/creat_example_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:backgroundTint="@color/yellow_500"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="@string/create" />
+
+
+
+</LinearLayout>
